@@ -8,6 +8,7 @@ lengthLabel=label(text='The target distance is=',height=30)
 
 while(True):
     rate(20)
+    print('Khaled is smart')
     if arduinoSerialData.inWaiting()>0 :
         myData=arduinoSerialData.readline()
         distance=float(myData)
